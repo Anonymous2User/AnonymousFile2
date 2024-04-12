@@ -1,6 +1,6 @@
-**Q3 of Reviewer EzF8**
+**W2 of Reviewer Tfrb & Q3 of Reviewer EzF8**
 
-Partially aligned multi-view clustering is still underexplored and only few works are proposed. Most existing partially aligned multi-view clustering methods can only handle data with two views, which means can only handle two base results. To the best of our knowledge, we only find UPMGC, which can handle data with more than two views (or base clusterings). That is why we only compared with this method. As you suggested, we now also compare with two additional partially aligned multi-view clustering methods PVC and MvCLN. Since these two methods can only handle two views, we generate two base clustering results for ensemble. We show the results in "Anonymous.pdf". We can see that, this case containing only two base results is easier than our setting that ensembles 10 base results, because the performance of  these methods decrease slower than in the case to ensemble 10 base results. Despite this, our method can still perform better than these multi-view methods.
+The comparison of our method with partially aligned multi-view clustering methods PVC, MvCLN, and UPMGC. Since these PVC and MvCLN can only handle two views, we generate two base clustering results for the ensemble for a fair comparison. Figures 1 and 2 in the file "Anonymous.pdf" show the ACC and NMI results with different unaligned ratios. We can see that our method can outperform these methods on most data sets.
 
 ![image](figs/1.png)
 ![image](figs/2.png)
